@@ -1,49 +1,87 @@
+
 <!DOCTYPE html>
 <html>
-<head>  
+  <!-- index.html -->
+<head>
 <meta charset="BIG5">
-<title>可以用中文 呵呵</title>
-   <style>
-    body {background-color:powderblue;}
-   header {
-     background-color: yellow;
-     padding: 1em;
-     text-align: center;
-     margin: 20px;
-     }
-     nav {
-        background-color: rgb(0, 247, 0);
-        padding: 5px;
-        color: green;
-      }
-     section {background-color: red;}
-     article {background-color: blue;}
-     aside {background-color: rgb(124, 124, 124);}
-     footer {background-color: bisque;}
-    </style>
+<title>HTML 5 layout</title>
+  <style>
+    body {background-color: powderblue;}
+    header {
+      background-color: yellow;
+      padding: 1em;
+      text-align: center;
+    }
+    nav {
+      background-color: #0b1457;
+      height: 50px;
+      color: blue;
+      font-size: 30px;
+      padding: 5px;
+      margin: 20px;
+    }
+    aside {
+      background-color: #aaaade;
+      // height: 200px; 
+      width: 100px;
+      float: left;
+    }
+    
+    section {
+      background-color: red;
+      margin-left: 105px;
+    }
+    
+    article {
+      background-color: yellow;
+      max-width: 200px;
+      height: 200px;
+      border: solid gray 5px;
+      float: left;
+      margin: 30px 20px 10px 0px;
+}
+    
+    footer {
+      background-color: green;
+      clear: both;
+    }
+    
+    #myAddress {
+      float: right;
+    }
+    
+    #myAddress p {text-align: right;}
+  </style>
 </head>
   <body>
-    <!--write your header here -->
+    <!-- Write your header here -->
     <header><h1>my header</h1></header>
     
-    <!--write your nav here -->
+    <!-- Write your nav here -->
     <nav>my nav</nav>
     
-    <!--write your section here -->
-    <section>my section</section>
-    
-    <!--write your article here -->
-    <article>my article</article>
-    
-    <!--write your aside here -->
+    <!-- Write your aside here -->
     <aside>my aside</aside>
     
-    <!--write your footer here -->
- <footer> my footer 
-      <img src="myQrCode.jpg">
-      <p>更新日期：2017年03月16日</p>
-<p>校本部 高雄市84001大樹區學城路一段1號 Tel:(07)6577711</p>
-<p>醫學院區 高雄市82445燕巢區角宿里義大路8號 Tel:(07)6151100</p>
+    <!-- Write your section here -->
+    <section>my section
+       <!-- Write your articles here -->
+       <article>my article1</article>
+       <article>my article2</article>
+       <article>my article3</article>
+       <article>my article4</article>
+    </section>
+    
+    
+    
+    <!-- Write your footer here -->
+    <footer> my footer 
+      <img src="myQrCode.jpg" style="height: 120px;padding: 10px;">
+      <div id="myAddress">
+        <p>更新日期：2017年03月16日</p>
+        <p>校本部 高雄市84001大樹區學城路一段1號 Tel:(07)6577711</p>
+        <p>醫學院區 高雄市82445燕巢區角宿里義大路8號 Tel:(07)6151100</p>
+      </div>
     </footer>
     
   </body>
