@@ -1,100 +1,93 @@
-
 <!DOCTYPE html>
 <html>
-  <!-- index.html -->
-<head>
-<meta charset="BIG5">
-<title>HTML 5 layout</title>
+<!-- index.html -->
+  <head>
+  <meta charset="BIG5">
+  <title>HML5 layout</title>
   <style>
-    body {background-color: powderblue;}
-    header {
-      background-color: yellow;
-      padding: 1em;
-      text-align: center;
+  body {background-color: powderblue;}
+  header {
+    background-color: purple;
+    padding: 1em;
+    text-align: center;
     }
     .myContainer {
     margin: 0 auto;
-    width: 1024px;
-}
-    nav {
-      background-color: #0b1457;
-      height: 50px;
-      color: blue;
-      font-size: 30px;
-      padding: 5px;
-      margin: 20px;
+    width: 800px;
     }
-    aside {
-      background-color: #aaaade;
-      // height: 200px; 
-      width: 100px;
-      float: left;
+  nav {
+    background-color: blue;
+    height: 30px;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
     }
-    
-    section {
-      background-color: red;
-      margin-left: 105px;
+  aside {
+    background-color: orange;
+    // height: 200px;
+    width: 100px;
+    float: left;
     }
-    
-    article {
-      background-color: yellow;
-      max-width: 200px;
-      height: 200px;
-      border: solid gray 5px;
-      float: left;
-      margin: 30px 20px 10px 0px;
-}
-    
-    footer {
-      background-color: green;
-      clear: both;
+  section {
+    background-color: green;
+    margin-left: 125px;
     }
-    
-    #myAddress {
-      float: right;
+  article {
+    background-color: red;
+    max-width: 150px;
+    height: 150px;
+    border: solid white 5px;
+    float: left;
+    margin: 30px 10px 10px 10px;
     }
-    
+  footer {
+    background-color: yellow;
+    clear: both;
+    }
+    div#myAddress {
+    float: right;
+    }
     #myAddress p {text-align: right;}
   </style>
-</head>
+  </head>
   <body>
-    <!-- Write your header here -->
-    <header>
-      <div class="myContainer">
-      <h1>my header</h1>
-      </div>
-        </header>
-    
-    <!-- Write your nav here -->
-    <nav>
-     <div class="myContainer">
-      my nav
-       </div>
-       </nav>
-    
-    <!-- Write your aside here -->
-    <aside>my aside</aside>
-    
-    <!-- Write your section here -->
-    <section>my section
-       <!-- Write your articles here -->
-       <article>my article1</article>
-       <article>my article2</article>
-       <article>my article3</article>
-       <article>my article4</article>
-    </section>
-    
-    
-    
-    <!-- Write your footer here -->
-    <footer> my footer 
-      <img src="myQrCode.jpg" style="height: 120px;padding: 10px;">
-      <div id="myAddress">
-        <p>更新日期：2017年03月16日</p>
-        <p>校本部 高雄市84001大樹區學城路一段1號 Tel:(07)6577711</p>
-        <p>醫學院區 高雄市82445燕巢區角宿里義大路8號 Tel:(07)6151100</p>
-      </div>
-    </footer>
-    
-  </body>
+<!-- Write your header here -->
+  <header>
+    <div class="myContainer">
+    <h1>my header</h1>
+    </div>  
+  </header>
+<!-- Write your nav here -->
+  <nav>
+    <div class="myContainer">
+    my nav
+    </div>
+  </nav>
+  <div class="myContainer">
+<!-- Write your aside here -->
+  <aside>my aside</aside>
+<!-- Write your section here -->
+  <section>my section
+<!-- Write your articles here -->
+  <article>my article1</article>
+  <article>my article2</article>
+  <article>my article3</article>
+  <article>my article4</article>
+  </section>
+  </div>
+<!-- Write your footer here -->
+  <footer>
+    <div class="myContainer">
+    my footer
+    <img src="myQrCode.jpg"style="height: 150px;padding: 15px";>
+    <div id="myAddress">
+     <p>更新日期：2017年03月16日</p>
+     <p>校本部 高雄市84001大樹區學城路一段1號 Tel:(07)6577711</p>
+     <p>醫學院區 高雄市82445燕巢區角宿里義大路8號 Tel:(07)6151100</p>
+    </div>
+    </div>
+  </footer>
+</body>
 </html>
