@@ -5,53 +5,85 @@
   <meta charset="BIG5">
   <title>HML5 layout</title>
   <style>
-  body {background-color: powderblue;
-    margin: 0px;
+    body {
+      background-color: powderblue;
+      margin: 0px;
     }
-  header {
-    background-color: purple;
-    padding: 1em;
-    text-align: center;
+    header {
+      background-color: purple;
+      padding: 1em;
+      text-align: center;
     }
     .myContainer {
-    margin: 0 auto;
-    width: 800px;
+      margin: 0 auto;
+      width: 1024px;
     }
-  nav {
-    background-color: blue;
-    height: 30px;
-    color: white;
-    font-size: 30px;
-    padding: 10px;
+    nav {
+      background-color:blue;
+      // height: 50px;
+      color: white;
+      font-size: 22px;
+      // padding: 5px;
+    }
     
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0px;
+      overflow: hidden;
+      // background-color: #333333;
+   }
+
+   li {
+      float: left;
+      // width: 150px;
+      // text-align: center;
+   }
+    
+   li a {
+    display: block;
+    color: white;
     text-align: center;
+    padding: 16px;
+    text-decoration: none;
+   }
+
+   li a:hover {
+    background-color: #111111;
+   } 
+    
+   aside {
+      background-color: orange;
+      // height: 200px; 
+      width: 100px;
+      float: left;
     }
-  aside {
-    background-color: orange;
-    // height: 200px;
-    width: 100px;
-    float: left;
+    
+   section {
+      background-color: green;
+      margin-left: 105px;
     }
-  section {
-    background-color: green;
-    margin-left: 125px;
+    
+    article {
+      background-color: red;
+      max-width: 200px;
+      height: 200px;
+      border: solid red 5px;
+      float: left;
+      margin: 30px 20px 10px 0px;
+}
+    
+    footer {
+      background-color: yellow;
+      clear: both;
     }
-  article {
-    background-color: red;
-    max-width: 150px;
-    height: 150px;
-    border: solid white 5px;
-    float: left;
-    margin: 30px 10px 10px 10px;
+    
+    #myAddress {
+      float: right;
     }
-  footer {
-    background-color: yellow;
-    clear: both;
-    }
-    div#myAddress {
-    float: right;
-    }
+    
     #myAddress p {text-align: right;}
+  
   </style>
   </head>
   <body>
@@ -99,3 +131,4 @@
   </footer>
 </body>
 </html>
+
