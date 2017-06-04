@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HW9 my Dropdown Menu</title>
+<style>
+ 
+ .dropdown-content a {
+    display: block;
+    text-decoration: none;
+    padding: 12px 16px;
+}
+ .dropbtn {
+    background: black;
+    color: yellow;
+    font-size: 20px;
+    border: none;
+    padding: 16px;
+    cursor: pointer;
+}
+ .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 200px;
+    box-shadow: 9px 6px 16px 4px purple;
+    z-index: 1;
+}
+ .dropdown:hover .dropdown-content {
+    display: block;
+}
+ .dropdown:hover .dropbtn {
+    background-color: red;
+}
+ .dropdown-content a:hover {
+    background-color: orange
+}
+ 
+</style>
+</head>
+<body>
+<h1> 吳敬憲的 dropdown menu </h1>
+<hr/>
+<div class="dropdown">
+<button class="dropbtn">小心危險 別碰!</button>
+<div class="dropdown-content">
+ <img src="my.jpg" alt="Trolltunga Norway" width="300" height="200">
+    <a href="#">第一行</a>
+    <a href="#">第二行</a>
+    <a href="#">第三行</a>
+ <div class="desc">QAQ 要放個人照</div>
+</div>
+</div>
+</body>
+</html>
